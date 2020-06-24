@@ -93,7 +93,6 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
    users.users.lucas = {
      isNormalUser = true;
-     home = "/home/lucas";
      # hash generator [mkpasswd -m sha-512]
      hashedPassword = "$6$aM.2jBoCWEA$VoRKAB9mrSQvhEG1GZJzAXgQR2.gUPhbVlzm8GiCi9hkXB8xqUeku5ji/7WDEfaG6ek0gCooZPPH6GNbAWXZr1";
      extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
