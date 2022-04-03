@@ -53,16 +53,16 @@
    environment.systemPackages = with pkgs; 
    
     # base
-    [ wget vim git python3 termite mkpasswd ]
+    [ wget curl vim git python3 alacritty ]
 
       # Standard programs
     ++ [ flameshot vscodium ranger xclip]
 
       # Communication
-      ++ [ tdesktop discord ]
+      ++ [  ]
 
       # Browsers
-        ++ [ firefox google-chrome ]
+        ++ [ firefox ]
 
         # Random
           ++ [ neofetch ];
@@ -102,6 +102,6 @@
     initialPassword = "changeme";
    };
    
-  system.stateVersion = "21.1"; # Did you read the comment?
+  system.stateVersion = "21.11"; # Did you read the comment?
 
 }
