@@ -29,7 +29,6 @@
     pkgs.htop
     pkgs.tdesktop
     pkgs.pcmanfm
-    pkgs.xdg-user-dirs
   ];
 
   programs.vim = {
